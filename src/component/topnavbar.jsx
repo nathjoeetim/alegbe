@@ -5,10 +5,10 @@ import image1 from '../assets/i2.jpg'; // Import your image
 function TopNavigationBar() {
    return (
       <NavigationBar>
-         <UserMenu>
+         {/* <UserMenu>
             <span>Works</span>
             <span>Contact</span>
-         </UserMenu>
+         </UserMenu> */}
          <ImageContainer>
             {/* Use the imported image here */}
             <img src={image1} alt="User" />
@@ -29,26 +29,26 @@ const NavigationBar = styled.div`
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding: .5rem 0.2rem;
+   padding: .5rem 0.5rem;
    box-sizing: border-box;
 `;
 
-const UserMenu = styled.div`
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   gap: .7rem;
+// const UserMenu = styled.div`
+//    display: flex;
+//    flex-direction: row;
+//    align-items: center;
+//    gap: .7rem;
 
-   & span {
-      color: #161515;
-      font-size: 18px;
-      font-weight: 500;
-      cursor: pointer;
-      &:hover {
-         color: grey;
-      }
-   }
-`;
+//    & span {
+//       color: #161515;
+//       font-size: 18px;
+//       font-weight: 500;
+//       cursor: pointer;
+//       &:hover {
+//          color: grey;
+//       }
+//    }
+// `;
 
 const ImageContainer = styled.div`
    display: flex;
