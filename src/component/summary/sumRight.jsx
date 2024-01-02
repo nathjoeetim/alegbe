@@ -1,46 +1,35 @@
 import styled from "styled-components";
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin } from "react-icons/fa";
 
 function AboutUserRight() {
-  return <AboutContainerRight>
-    <UserBioStyled>
-    <h5>
-      Years of experience
-    </h5>
-        <h1>
-        1
-</h1>
+  return (
+    <AboutContainerRight>
+      <UserBioStyled>
+        <h5>Years of experience</h5>
+        <h1>1</h1>
+      </UserBioStyled>
+      <UserBioStyled>
+        <h5>Satisfied client</h5>
+        <h1>100%</h1>
+      </UserBioStyled>
+      <UserBioStyled>
+        <h5>Project done</h5>
+        <h1>20</h1>
+      </UserBioStyled>
+      <UserBioStyled>
+        <h5>Linkin profile</h5>
 
-    </UserBioStyled>
-    <UserBioStyled>
-    <h5>
-     Satisfied client
-    </h5>
-        <h1>
-      100%
-</h1>
-
-    </UserBioStyled>
-    <UserBioStyled>
-    <h5>
-     Project done
-    </h5>
-        <h1>
-      20
-</h1>
-
-    </UserBioStyled>
-    <UserBioStyled>
-    <h5>
-     Linkin profile
-      </h5>
-     
-        <a href="https://docs.google.com/document/d/16VhQsGLwF3QlmIZSUq63QTkHDi8e0Obw7w27v9LElZc/edit ">
-      <FaLinkedin color="#1DA1F2"/>
+        <a href="https://www.linkedin.com/in/blessing-alegbe-6725a219a?trk=contact-info  ">
+          <FaLinkedin color="#1DA1F2" />
         </a>
-
-    </UserBioStyled>
-  </AboutContainerRight>
+      </UserBioStyled>
+      <UserBioStyled>
+        <a href="https://docs.google.com/document/d/16VhQsGLwF3QlmIZSUq63QTkHDi8e0Obw7w27v9LElZc/edit ">
+          Click to view Resume
+        </a>
+      </UserBioStyled>
+    </AboutContainerRight>
+  );
 }
 
 export default AboutUserRight
