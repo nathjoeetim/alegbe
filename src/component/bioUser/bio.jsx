@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 function UserBio() {
-  return <UserBioStyled>
-    <h5>
-      Biography
-    </h5>
-    <div>
-   Work for money and design for love! <br/> I&apos;m Blessing Alegbe, a UI/UX designer based in Nigeria, Lagos
-</div>
-
-  </UserBioStyled>
+  return (
+    <UserBioStyled>
+      <h5>Biography</h5>
+      <div>
+        Work for money and design for love! <br /> I&apos;m Blessing Alegbe, a
+        UI/UX designer based in Nigeria, Lagos
+      </div>
+    </UserBioStyled>
+  );
 }
 
 export default UserBio

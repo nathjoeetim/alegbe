@@ -4,50 +4,30 @@ import UserBio from "../bioUser/bio";
 function AboutUserLeft() {
   return (
     <AboutContainerLeft>
-     <UserBio/>
-     <UserBioStyled>
-    <h5>
-      Contact
-    </h5>
+      <UserBio />
+      <UserBioStyled>
+        <h5>Contact</h5>
         <div>
-        <div>
-          Address : Ikeja, Lagos State <br/>
-          </div> <div>
-          Phone : 08136457789 <br/>
-          </div> <div>
-          E-mail : nonyeb2000@gmail.com
-          </div>
-</div>
-
+          <div>
+            Address : Ikeja, Lagos State <br />
+          </div>{" "}
+          <div>
+            Phone : 08136457789 <br />
+          </div>{" "}
+          <div>E-mail : nonyeb2000@gmail.com</div>
+        </div>
       </UserBioStyled>
       <UserBioStyled>
-    <h5>
-      Skills
-    </h5>
+        <h5>Skills</h5>
         <div>
-          <div>
-            Drawing
-          </div>
-          <div>
-            Figma
-          </div>
-          <div>
-          Adobe XD
-          </div>
-          <div>
-            HTML
-          </div>
-          <div>
-          Gives strong critique and
-feedback
-
-          </div>
-          <div>
-          Team player
-          </div>
-</div>
-
-  </UserBioStyled>     
+          <div>Drawing</div>
+          <div>Figma</div>
+          <div>Adobe XD</div>
+          <div>HTML</div>
+          <div>Gives strong critique and feedback</div>
+          <div>Team player</div>
+        </div>
+      </UserBioStyled>
     </AboutContainerLeft>
   );
 }

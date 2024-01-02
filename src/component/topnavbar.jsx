@@ -4,22 +4,22 @@ import image1 from '../assets/i2.jpg'; // Import your image
 
 function TopNavigationBar() {
    return (
-      <NavigationBar>
-         {/* <UserMenu>
+     <NavigationBar>
+       {/* <UserMenu>
             <span>Works</span>
             <span>Contact</span>
          </UserMenu> */}
-         <ImageContainer>
-            {/* Use the imported image here */}
-            <img src={image1} alt="User" />
-         </ImageContainer>
-         <SocialMediaSection>
-            <FaTwitter size={20} className='icons' color="#1DA1F2"  />
-            <FaFacebook size={20} className='icons' color="#1877f2" />
-            {/* <FaGithub size={20} className='icons' color="#4078c0" /> */}
-            <FaFigma size={20} className='icons' color="#0ACF83" />
-         </SocialMediaSection>
-      </NavigationBar>
+       <ImageContainer>
+         {/* Use the imported image here */}
+         <img src={image1} alt="User" />
+       </ImageContainer>
+       <SocialMediaSection>
+         <FaTwitter size={20} className="icons" color="#1DA1F2" />
+         <FaFacebook size={20} className="icons" color="#1877f2" />
+         {/* <FaGithub size={20} className='icons' color="#4078c0" /> */}
+         <FaFigma size={20} className="icons" color="#0ACF83" />
+       </SocialMediaSection>
+     </NavigationBar>
    );
 }
 

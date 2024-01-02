@@ -12,17 +12,17 @@ function App() {
       <TopNavigationBar />
       <UserIntroText>
         <h1>
-          Blessing Alegbe <br />UI/UX Interaction Designer <br /> Based In Nigeria, Lagos
+          Blessing Alegbe <br />
+          UI/UX Interaction Designer <br /> Based In Nigeria, Lagos
         </h1>
       </UserIntroText>
-      <SmallScreenImage className='fade-in'>
+      <SmallScreenImage className="fade-in">
         <AboutUserMiddle />
       </SmallScreenImage>
       <AboutUserSummary>
-
         <AboutUserLeft />
-        <UserImageMidContainer className='fade-in'>
-        <AboutUserMiddle />
+        <UserImageMidContainer className="fade-in">
+          <AboutUserMiddle />
         </UserImageMidContainer>
         <AboutUserRight />
       </AboutUserSummary>

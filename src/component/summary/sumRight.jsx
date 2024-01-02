@@ -35,17 +35,16 @@ function AboutUserRight() {
 export default AboutUserRight
 
 const AboutContainerRight = styled.div`
- display: flex;
+  display: flex;
   flex-direction: column;
   flex: 1;
-  gap:2rem ;
-  padding: 10px .5rem;
+  gap: 2rem;
+  padding: 10px 0.5rem;
   align-items: center; /* Center horizontally */
   justify-content: center; /* Center vertically */
-    /* Additional styling for the text if needed */
-    margin-bottom: 10px; /* Adjust as needed */
-  
-  `
+  /* Additional styling for the text if needed */
+  margin-bottom: 10px; /* Adjust as needed */
+`;
 
   
 const UserBioStyled = styled.div`
