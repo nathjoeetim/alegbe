@@ -58,8 +58,8 @@ const Imagecontainer = styled.div`
 
 const ImageAbsoluteRight = styled.div`
   position: absolute;
-  top: 10px;
-  right: -50px;
+  top: 0px;
+  right: -30px;
 
   & img {
     width: 100px;
