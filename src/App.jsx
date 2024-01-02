@@ -61,15 +61,15 @@ const SmallScreenImage = styled.div`
   display: none;
   align-items: center;
   justify-content: center;
-width:100%;
+  width: 100%;
+  padding-left: 10px;
 
   @media only screen and (max-width: 778px) {
     display: flex;
     flex-direction: column;
-    align-items:center;
-    width:100%;
-    margin:.3rem auto;
-
+    align-items: center;
+    width: 100%;
+    margin: 0.3rem auto;
   }
 `;
 
